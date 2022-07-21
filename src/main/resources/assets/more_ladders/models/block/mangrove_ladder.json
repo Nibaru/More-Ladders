@@ -1,7 +1,0 @@
-{
-  "parent": "more_ladders:block/ladder",
-  "textures": {
-    "wood": "minecraft:block/stripped_mangrove_log",
-    "particle": "minecraft:block/stripped_mangrove_log"
-  }
-}

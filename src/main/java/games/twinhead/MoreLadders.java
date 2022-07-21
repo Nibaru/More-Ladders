@@ -40,7 +40,6 @@ public class MoreLadders {
             ItemBlockRenderTypes.setRenderLayer(Registry.JUNGLE_LADDER.get(), RenderType.translucent());
             ItemBlockRenderTypes.setRenderLayer(Registry.ACACIA_LADDER.get(), RenderType.translucent());
             ItemBlockRenderTypes.setRenderLayer(Registry.DARK_OAK_LADDER.get(), RenderType.translucent());
-            ItemBlockRenderTypes.setRenderLayer(Registry.MANGROVE_LADDER.get(), RenderType.translucent());
             ItemBlockRenderTypes.setRenderLayer(Registry.CRIMSON_LADDER.get(), RenderType.translucent());
             ItemBlockRenderTypes.setRenderLayer(Registry.WARPED_LADDER.get(), RenderType.translucent());
 
