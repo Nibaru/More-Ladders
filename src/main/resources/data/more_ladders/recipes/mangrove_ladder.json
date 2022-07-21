@@ -5,7 +5,7 @@
       "item": "minecraft:stick"
     },
     "@": {
-      "item": "minecraft:crimson_planks"
+      "item": "minecraft:mangrove_planks"
     }
   },
   "pattern": [
@@ -14,8 +14,8 @@
     "# #"
   ],
   "result": {
-    "count": 4,
-    "item": "more_ladders:crimson_ladder"
+    "count": 3,
+    "item": "more_ladders:mangrove_ladder"
   },
   "group": "ladders"
 }

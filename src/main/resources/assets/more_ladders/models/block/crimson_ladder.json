@@ -2,6 +2,6 @@
   "parent": "more_ladders:block/ladder",
   "textures": {
     "wood": "minecraft:block/stripped_crimson_stem",
-    "particle": "minecraft:block/stripped_crimson_log"
+    "particle": "minecraft:block/stripped_crimson_stem"
   }
 }
