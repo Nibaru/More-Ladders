@@ -1,0 +1,53 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stick": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stick"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipes": [
+          "more_ladders:oak_ladder",
+          "more_ladders:spruce_ladder",
+          "more_ladders:birch_ladder",
+          "more_ladders:jungle_ladder",
+          "more_ladders:acacia_ladder",
+          "more_ladders:dark_oak_ladder",
+          "more_ladders:mangrove_ladder",
+          "more_ladders:crimson_ladder",
+          "more_ladders:warped_ladder",
+          "minecraft:ladder"
+        ]
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_stick",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "more_ladders:oak_ladder",
+      "more_ladders:spruce_ladder",
+      "more_ladders:birch_ladder",
+      "more_ladders:jungle_ladder",
+      "more_ladders:acacia_ladder",
+      "more_ladders:dark_oak_ladder",
+      "more_ladders:mangrove_ladder",
+      "more_ladders:crimson_ladder",
+      "more_ladders:warped_ladder"
+    ]
+  }
+}
