@@ -2,6 +2,7 @@
   "parent": "more_ladders:block/ladder",
   "textures": {
     "wood": "minecraft:block/stripped_acacia_log",
+    "plank": "minecraft:block/acacia_planks",
     "particle": "minecraft:block/stripped_acacia_log"
   }
 }

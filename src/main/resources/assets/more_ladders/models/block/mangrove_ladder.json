@@ -2,6 +2,7 @@
   "parent": "more_ladders:block/ladder",
   "textures": {
     "wood": "minecraft:block/stripped_mangrove_log",
+    "plank": "minecraft:block/mangrove_planks",
     "particle": "minecraft:block/stripped_mangrove_log"
   }
 }

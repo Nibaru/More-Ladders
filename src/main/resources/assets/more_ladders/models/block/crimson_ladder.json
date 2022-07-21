@@ -2,6 +2,7 @@
   "parent": "more_ladders:block/ladder",
   "textures": {
     "wood": "minecraft:block/stripped_crimson_stem",
+    "plank": "minecraft:block/crimson_planks",
     "particle": "minecraft:block/stripped_crimson_stem"
   }
 }
