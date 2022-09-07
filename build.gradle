@@ -1,25 +1,30 @@
 buildscript {
     repositories {
         maven { url = 'https://maven.minecraftforge.net' }
+        maven { url = 'https://maven.parchmentmc.org' }
         mavenCentral()
     }
     dependencies {
         classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '5.1.+', changing: true
+        classpath 'org.parchmentmc:librarian:1.+'
     }
 }
 
 apply plugin: 'net.minecraftforge.gradle'
+apply plugin: 'org.parchmentmc.librarian.forgegradle'
 
 group = 'games.twinhead'
 version = project.mod_version
 
+
+
 java {
-    archivesBaseName = 'more_stairs_slabs_and_walls'
+    archivesBaseName = project.mod_id
     toolchain.languageVersion = JavaLanguageVersion.of(17)
 }
 
 minecraft {
-    mappings channel: 'official', version: project.minecraft_version
+    mappings channel: 'parchment', version: '2022.08.28-1.19.2'
     runs {
         client {
             workingDirectory project.file('run')

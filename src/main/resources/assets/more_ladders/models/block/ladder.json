@@ -1,6 +1,7 @@
 {
   "credit": "Made with Blockbench",
   "ambientocclusion": false,
+  "render_type": "cutout",
   "textures": {
     "particle": "block/ladder",
     "wood": "block/stripped_oak_log",
