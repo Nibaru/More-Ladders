@@ -1,8 +1,10 @@
 package games.twinhead;
 
-public class MoreLadderBlock extends net.minecraft.world.level.block.LadderBlock{
+import net.minecraft.block.LadderBlock;
 
-    public MoreLadderBlock(Properties p_54345_) {
-        super(p_54345_);
-   }
+public class MoreLadderBlock extends LadderBlock {
+
+    public MoreLadderBlock(Settings settings) {
+        super(settings);
+    }
 }

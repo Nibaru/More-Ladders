@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "more_ladders",
+  "version": "${version}",
+
+  "name": "More Ladders",
+  "description": "More Ladders!",
+  "authors": [
+    "Nibaru"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/Nibaru/more-ladders"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/more_ladders/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "games.twinhead.MoreLadders"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
