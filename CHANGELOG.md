@@ -4,6 +4,8 @@
 ### Changed
 - Ladder blocks now have their render type set in models/block/ladder.json
 - Ladder movement now happens in PlayerTickEvent
+### Fixed
+- Ladders not breaking faster with axes
 
 ## [1.19- Forge] - 2022-07-20
 ### Added
