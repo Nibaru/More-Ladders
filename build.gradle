@@ -14,7 +14,7 @@ group = 'games.twinhead'
 version = project.mod_version
 
 java {
-    archivesBaseName = 'more_stairs_slabs_and_walls'
+    archivesBaseName = 'more_ladders'
     toolchain.languageVersion = JavaLanguageVersion.of(17)
 }
 
