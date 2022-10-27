@@ -1,0 +1,7 @@
+{
+  "parent": "more_ladders:block/ladder",
+  "textures": {
+    "rail": "minecraft:block/basalt_side",
+    "rung": "minecraft:block/basalt_top"
+  }
+}

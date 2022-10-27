@@ -1,0 +1,7 @@
+{
+  "parent": "more_ladders:block/ladder",
+  "textures": {
+    "rail": "minecraft:block/deepslate_bricks",
+    "rung": "minecraft:block/deepslate_bricks"
+  }
+}

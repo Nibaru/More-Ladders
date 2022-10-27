@@ -1,0 +1,7 @@
+{
+  "parent": "more_ladders:block/ladder",
+  "textures": {
+    "rail": "minecraft:block/weathered_copper",
+    "rung": "minecraft:block/weathered_copper"
+  }
+}

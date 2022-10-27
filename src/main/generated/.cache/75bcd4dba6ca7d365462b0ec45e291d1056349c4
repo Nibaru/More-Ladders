@@ -1,0 +1,7 @@
+// 1.19.2	2022-10-27T15:16:11.123586455	Tags for minecraft:block
+aa9645fa1ed1955c1ad908ec925d104498049394 data/more_ladders/tags/blocks/wooden_ladders.json
+5ed61793a2082ced00461a68aeafc0356d192c89 data/more_ladders/tags/blocks/stone_ladders.json
+d2da37204b385bf2745dd519bb0b920916c6243d data/minecraft/tags/blocks/mineable/pickaxe.json
+357d5104522ceb3bca84af1a1714cfb86a866c9b data/minecraft/tags/blocks/fall_damage_resetting.json
+aafa87c34161483ff3c68846c18d25d348e99fbc data/minecraft/tags/blocks/mineable/axe.json
+357d5104522ceb3bca84af1a1714cfb86a866c9b data/minecraft/tags/blocks/climbable.json

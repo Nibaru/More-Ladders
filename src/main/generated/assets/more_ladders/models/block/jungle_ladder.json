@@ -1,0 +1,7 @@
+{
+  "parent": "more_ladders:block/ladder",
+  "textures": {
+    "rail": "minecraft:block/jungle_planks",
+    "rung": "minecraft:block/jungle_planks"
+  }
+}

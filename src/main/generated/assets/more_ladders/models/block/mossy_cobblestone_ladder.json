@@ -1,0 +1,7 @@
+{
+  "parent": "more_ladders:block/ladder",
+  "textures": {
+    "rail": "minecraft:block/mossy_cobblestone",
+    "rung": "minecraft:block/mossy_cobblestone"
+  }
+}

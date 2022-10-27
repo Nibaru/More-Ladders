@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_brown_mushroom_ladder": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "more_ladders:brown_mushroom_ladder"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "more_ladders:brown_mushroom_ladder"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_brown_mushroom_ladder",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "more_ladders:brown_mushroom_ladder"
+    ]
+  }
+}

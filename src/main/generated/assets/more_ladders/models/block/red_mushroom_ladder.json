@@ -1,0 +1,7 @@
+{
+  "parent": "more_ladders:block/ladder",
+  "textures": {
+    "rail": "minecraft:block/red_mushroom_block",
+    "rung": "minecraft:block/mushroom_stem"
+  }
+}

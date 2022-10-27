@@ -13,23 +13,26 @@
     "sources": "https://github.com/Nibaru/more-ladders"
   },
 
-  "license": "CC0-1.0",
+  "license": "LGPL-3.0",
   "icon": "assets/more_ladders/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "games.twinhead.MoreLadders"
+      "games.twinhead.moreladders.MoreLadders"
+    ],
+    "client": [
+      "games.twinhead.moreladders.client.Client"
+    ],
+    "fabric-datagen": [
+      "games.twinhead.moreladders.datagen.MoreLaddersDatagen"
     ]
   },
 
   "depends": {
-    "fabricloader": ">=0.14.9",
-    "fabric-api": "*",
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
     "minecraft": "~1.19",
     "java": ">=17"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }

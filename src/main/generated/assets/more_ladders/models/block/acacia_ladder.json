@@ -1,0 +1,7 @@
+{
+  "parent": "more_ladders:block/ladder",
+  "textures": {
+    "rail": "minecraft:block/acacia_planks",
+    "rung": "minecraft:block/acacia_planks"
+  }
+}
